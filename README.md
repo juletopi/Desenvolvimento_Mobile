@@ -15,7 +15,7 @@
 <!-- PRESENTATION -->
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/8d4b4737-2e84-4404-97ca-c25bd5363b0a" alt="DesenvolvimentoMobile-pic" width="130px" title="Repositório de Desenvolvimento Mobile">
+    <img src="https://github.com/user-attachments/assets/fa63124a-e49a-4eca-ae0d-eb0b788e0ca7" alt="DesenvolvimentoMobile-pic" width="130px" title="Repositório de Desenvolvimento Mobile">
     <h2 align="center">Desenvolvimento Mobile 📱</h2>
 </div>
 
