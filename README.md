@@ -102,10 +102,6 @@ Esta disciplina introduz o desenvolvimento mobile multiplataforma. Serão aborda
 
 <br>
 
-<div align="center">
-  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=32335e&height=4&section=header&%20render">
-</div>
-
 <!-- LEARNED CONCEPTS -->
 
 ## 📚 Conceitos Aprendidos:
@@ -115,40 +111,46 @@ Esta disciplina introduz o desenvolvimento mobile multiplataforma. Serão aborda
 > [!NOTE]\
 > *Use [Expo](https://expo.dev/) para facilitar o desenvolvimento de aplicações React Native. Siga os passos abaixo para configurar e rodar o projeto localmente.*
 
-#### **Pré-requisitos**
+#### 1. **Pré-requisitos**
 
 Antes de começar, certifique-se de ter instalado:
 
 - **Node.js (versão LTS):** [Download Node.js](https://nodejs.org/)
 - **Git:** [Download Git](https://git-scm.com/)
 
-Verifique se o Node.js está instalado:
+Usando um **prompt de comando**, verifique se o Node.js está instalado:
 ```sh
 node -v
 ```
 
-Verifique se o Git está instalado:
+Também verifique se o Git está instalado:
 ```sh
 git --version
 ```
 
-#### **Instalação do Expo CLI**
+#### 2. **Instalação do Expo CLI**
 
 O **Expo CLI** é uma ferramenta de linha de comando para criar e gerenciar projetos Expo.
 
-Instale globalmente:
+Agora, dentro de um **terminal** da IDE, instale globalmente:
 ```sh
 npm install -g expo-cli
 ```
 
-#### **Criando um novo projeto**
+#### 3. **Criando um novo projeto**
 
 Crie um novo projeto com o template "blank":
 ```sh
 npx create-expo-app meu-app --template blank
 ```
+Isso vai criar um diretório de arquivos (com a pasta main `meu-app`) de um projeto expo seguindo um template padrão.
 
-#### **Instalando dependências**
+#### 4. **Instalando dependências**
+
+Entre na pasta main:
+```sh
+cd meu-app
+```
 
 Instale os pacotes necessários:
 ```sh
@@ -159,7 +161,7 @@ ou
 npm i
 ```
 
-#### **Executando o projeto**
+#### 5. **Executando o projeto**
 
 Inicie o projeto:
 ```sh
@@ -168,7 +170,7 @@ npm start
 
 Você verá instruções no terminal para abrir o app no **Expo Go** (Android/iOS) ou no navegador.
 
-#### **Executando no navegador (Web)**
+#### 6. **Executando no navegador (Web)**
 
 Para rodar o projeto no navegador pela primeira vez, instale os pacotes web:
 ```sh
@@ -181,8 +183,6 @@ npm start
 ```
 
 E pressione **w** no terminal para abrir no navegador.
-
----
 
 #### **Recursos úteis**
 
