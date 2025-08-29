@@ -147,7 +147,7 @@ Isso vai criar um diretório de arquivos (com a pasta main `meu-app`) de um proj
 
 #### 4. **Instalando dependências**
 
-Entre na pasta main:
+Entre na pasta `main`:
 ```sh
 cd meu-app
 ```
@@ -209,7 +209,7 @@ Nesta aula foram aprendidos:
 - **Organização de arquivos:** Manter o código organizado em pastas como `components` e `assets`.
 - **Versionamento:** Utilizar `.gitignore` para evitar o upload de arquivos desnecessários.
 
-Inicie o projeto com...
+Na pasta `main`, inicie o projeto com...
 
 1. Instalar dependências:
    ```
@@ -270,11 +270,12 @@ Nesta aula foram aprendidos:
 - **Controle de estado:** Uso do `useState` para gerenciar os valores dos campos, resultado e mensagens de erro.
 - **Estilização básica:** Aplicação de estilos com `StyleSheet`, uso de cores personalizadas, layout básico responsivo e separação visual dos elementos.
 
-Inicie o projeto com...
+Na pasta `main`, inicie o projeto com...
 
 1. Instalar dependências:
    ```bash
    npm install
+   npm install @expo/vector-icons
    ```
 2. Iniciar o projeto com Expo:
    ```bash
