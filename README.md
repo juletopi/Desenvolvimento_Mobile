@@ -254,6 +254,63 @@ Inicie o projeto com...
   <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
 </div>
 
+----
+
+### 3. Calculadora Mobile
+
+> [!NOTE]\
+> *Retirado de "[calculadoraMobile](https://github.com/juletopi/Desenvolvimento_Mobile/tree/main/calculadoraMobile)"*
+
+> <img align="center" src="https://github.com/user-attachments/assets/0861953e-d212-4dcd-9410-48e0f5595280" alt="calcMobile-pic" title="Calculadora Mobile (Funcionamento)" style="width: 20%;">
+> <img align="center" src="https://github.com/user-attachments/assets/e9a228fb-ed56-4811-99f0-29c1878a754d" alt="calcMobileError-pic" title="Calculadora Mobile (Exemplo de erro)" style="width: 20%;">
+
+Nesta aula foram aprendidos:
+- **Projeto:** Criação de uma calculadora de soma simples utilizando React Native e Expo, com dois campos de entrada, botão de soma, exibição do resultado e botão de limpar.
+- **Componentização:** Separação das funcionalidades em componentes reutilizáveis (`Calculadora` e `Footer`).
+- **Controle de estado:** Uso do `useState` para gerenciar os valores dos campos, resultado e mensagens de erro.
+- **Estilização básica:** Aplicação de estilos com `StyleSheet`, uso de cores personalizadas, layout básico responsivo e separação visual dos elementos.
+
+Inicie o projeto com...
+
+1. Instalar dependências:
+   ```bash
+   npm install
+   ```
+2. Iniciar o projeto com Expo:
+   ```bash
+   npx expo start
+   ```
+3. Visualizar no navegador ou em dispositivo móvel.
+
+<div align="center">
+  <a href="#">
+    <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=151923&height=2&section=header&%20render">
+  </a>
+</div>
+
+#### Funcionalidades
+
+- Dois campos de texto (`TextInput`) para digitação dos números.
+- Botão “Somar” para calcular o resultado.
+- Botão “Limpar” para zerar os campos e o resultado.
+- Exibição do resultado em destaque.
+- Mensagem de erro para entradas inválidas.
+- Rodapé estilizado com ícones sociais.
+
+#### Componentes Utilizados
+
+- `useState` (React Hook para controle de estado)
+- Ícones do `@expo/vector-icons`
+
+#### Estrutura de Arquivos
+
+- `components/Calculadora.js`: Componente funcional que implementa toda a lógica e interface da calculadora.
+- `components/Footer.js`: Componente de rodapé com ícones sociais.
+
+<div align="left">
+  <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
+</div>
+
 <br>
 
 <!-- AUTHOR -->
