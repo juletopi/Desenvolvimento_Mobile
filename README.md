@@ -194,6 +194,66 @@ E pressione **w** no terminal para abrir no navegador.
   <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
 </div>
 
+----
+
+### 2. Espelho Digitado
+
+> [!NOTE]\
+> *Retirado de "[espelhoDigitado](https://github.com/juletopi/Desenvolvimento_Mobile/tree/main/espelhoDigitado)"*
+
+Nesta aula foram aprendidos:
+- **Projeto**: Criação de um componente funcional que espelha em tempo real o que o usuário digita, utilizando apenas elementos básicos do React Native.
+- **Componentização:** Separar funcionalidades em componentes reutilizáveis.
+- **Importação de componentes:** Como importar e utilizar componentes em React Native.
+- **Controle de estado:** Uso do `useState` para atualizar a interface em tempo real.
+- **Organização de arquivos:** Manter o código organizado em pastas como `components` e `assets`.
+- **Versionamento:** Utilizar `.gitignore` para evitar o upload de arquivos desnecessários.
+
+Inicie o projeto com...
+
+1. Instalar dependências:
+   ```
+   npm install
+   ```
+2. Iniciar o projeto com Expo:
+   ```
+   npx expo start
+   ```
+3. Visualizar no navegador ou em dispositivo móvel.
+
+<div align="center">
+  <a href="#">
+    <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=151923&height=2&section=header&%20render">
+  </a>
+</div>
+
+#### Funcionalidades
+
+- Campo de texto (`TextInput`) para digitação.
+- Exibição em tempo real do texto digitado, com prefixo personalizável.
+- Mensagem padrão quando o campo está vazio.
+- Botão “Limpar” para zerar o campo e o estado.
+- Sem qualquer estilização aplicada.
+
+#### Componentes Utilizados
+
+- `View`
+- `Text`
+- `TextInput`
+- `Button`
+- `useState` (React Hook para controle de estado)
+
+#### Estrutura de Arquivos
+
+- `App.js`: Arquivo principal, responsável por importar e exibir o componente.
+- `components/EspelhoDigitado.js`: Componente funcional criado para o projeto.
+- `assets/`: Pasta para ícones e imagens.
+- `.gitignore`: Arquivo para ignorar pastas e arquivos desnecessários no versionamento (ex: `node_modules/`, `.expo/`, `.vscode/`).
+
+<div align="left">
+  <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
+</div>
+
 <br>
 
 <!-- AUTHOR -->
