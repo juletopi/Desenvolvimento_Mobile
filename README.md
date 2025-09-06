@@ -56,6 +56,7 @@
     <a href="#2-espelho-digitado">Conceitos Aprendidos 2</a>
   </p>
     <a href="#3-calculadora-mobile">Conceitos Aprendidos 3</a> &#xa0; | &#xa0;
+    <a href="#4-lista-de-tarefas">Conceitos Aprendidos 4</a> &#xa0; | &#xa0;
     <a href="#-autor">Autor</a>
   </p>
 </div>
@@ -327,6 +328,77 @@ Na pasta `main`, inicie o projeto com...
 
 - `components/Calculadora.js`: Componente funcional que implementa toda a lógica e interface da calculadora.
 - `components/Footer.js`: Componente de rodapé com ícones sociais.
+
+<div align="left">
+  <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
+</div>
+
+<br>
+
+<div align="left">
+  <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
+</div>
+
+----
+
+### 4. Lista de Tarefas
+
+> [!NOTE]\
+> *Retirado de "[listaTarefas](https://github.com/juletopi/Desenvolvimento_Mobile/tree/main/listaTarefas)"*
+
+> <img align="center" src="https://github.com/user-attachments/assets/85079f25-0b65-4be2-9671-eab206925bc6" alt="listaTarefas-pic" title="Lista de Tarefas" style="width: 20%;">
+> <img align="center" src="https://github.com/user-attachments/assets/ace1e9c7-3b80-47ed-add2-ec8f737446e7" alt="listaTarefas-pic" title="Lista de Tarefas (Editar)" style="width: 20%;">
+> <img align="center" src="https://github.com/user-attachments/assets/8d84d908-73f6-42e9-a5fe-295dfe05060f" alt="listaTarefas-pic" title="Lista de Tarefas (Remover)" style="width: 20%;">
+
+Nesta aula foram aprendidos:
+- **Projeto:** Criação de uma lista de tarefas utilizando React Native e Expo, com campos de entrada, botões para adicionar, editar e remover tarefas, e exibição das tarefas em uma lista.
+- **Componentização:** Separação das funcionalidades em componentes reutilizáveis (`FlatListComponent`, `ButtonComponent`, `ModalComponent`, `TextInputComponent`, `TouchableOpacityComponent` e `Footer`).
+- **Controle de estado:** Uso do `useState` para gerenciar os valores dos campos, lista de tarefas, edição e mensagens de erro.
+- **Estilização básica:** Aplicação de estilos com `StyleSheet`, uso de cores personalizadas, layout básico responsivo e separação visual dos elementos.
+
+Na pasta `main`, inicie o projeto com...
+
+1. Instalar dependências:
+   ```bash
+   npm install
+   npm install @expo/vector-icons
+   ```
+2. Iniciar o projeto com Expo:
+   ```bash
+   npx expo start
+   ```
+3. Visualizar no navegador ou em dispositivo móvel.
+
+<div align="center">
+  <a href="#">
+    <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=151923&height=2&section=header&%20render">
+  </a>
+</div>
+
+#### Funcionalidades
+
+- Campo de texto (`TextInput`) para digitação da tarefa.
+- Botão “Adicionar” para inserir nova tarefa.
+- Botão “Editar” para modificar tarefa existente.
+- Botão “Remover” para excluir tarefa.
+- Exibição das tarefas em destaque com `FlatList`.
+- Mensagem de erro para entradas inválidas.
+- Rodapé estilizado com ícones sociais.
+
+#### Componentes Utilizados
+
+- `useState` (React Hook para controle de estado)
+- Componentes personalizados: `FlatListComponent`, `ButtonComponent`, `ModalComponent`, `TextInputComponent`, `TouchableOpacityComponent`, `Footer`
+- Ícones do `@expo/vector-icons`
+
+#### Estrutura de Arquivos
+
+- `components/FlatListComponent.jsx`: Componente funcional que implementa a exibição da lista de tarefas.
+- `components/ButtonComponent.jsx`: Componente de botão reutilizável.
+- `components/ModalComponent.jsx`: Componente para modal de edição.
+- `components/TextInputComponent.jsx`: Componente de campo de texto.
+- `components/TouchableOpacityComponent.jsx`: Componente para ações de toque.
+- `components/Footer.jsx`: Componente de rodapé com ícones sociais.
 
 <div align="left">
   <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
