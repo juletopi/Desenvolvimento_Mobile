@@ -333,12 +333,6 @@ Na pasta `main`, inicie o projeto com...
   <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
 </div>
 
-<br>
-
-<div align="left">
-  <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
-</div>
-
 ----
 
 ### 4. Lista de Tarefas
