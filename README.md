@@ -50,13 +50,15 @@
 
 <div align="center">
   <p align="center">
-    <a href="#-professor">Professor</a> &#xa0; | &#xa0;
+    <a href="#%E2%80%8D-professor">Professor</a> &#xa0; | &#xa0;
     <a href="#-desenvolvimento-mobile">Sobre o tópico</a> &#xa0; | &#xa0;
     <a href="#1-comandos-básicos">Conceitos Aprendidos 1</a> &#xa0; | &#xa0;
     <a href="#2-espelho-digitado">Conceitos Aprendidos 2</a>
   </p>
     <a href="#3-calculadora-mobile">Conceitos Aprendidos 3</a> &#xa0; | &#xa0;
     <a href="#4-lista-de-tarefas">Conceitos Aprendidos 4</a> &#xa0; | &#xa0;
+    <a href="#5-formulário-de-cadastro">Conceitos Aprendidos 5</a>
+  </p>
     <a href="#-autor">Autor</a>
   </p>
 </div>
