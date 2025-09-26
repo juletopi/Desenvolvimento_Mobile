@@ -266,10 +266,14 @@ Na pasta `main`, inicie o projeto com...
 
 #### Estrutura de Arquivos
 
-- `App.js`: Arquivo principal, responsável por importar e exibir o componente.
-- `components/EspelhoDigitado.js`: Componente funcional criado para o projeto.
-- `assets/`: Pasta para ícones e imagens.
-- `.gitignore`: Arquivo para ignorar pastas e arquivos desnecessários no versionamento (ex: `node_modules/`, `.expo/`, `.vscode/`).
+```
+espelhoDigitado/
+├── App.js
+├── components/
+│   └── EspelhoDigitado.js
+├── assets/
+└── .gitignore
+```
 
 <div align="left">
   <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
@@ -325,10 +329,15 @@ Na pasta `main`, inicie o projeto com...
 - Ícones do `@expo/vector-icons`
 
 #### Estrutura de Arquivos
-
-- `components/Calculadora.js`: Componente funcional que implementa toda a lógica e interface da calculadora.
-- `components/Footer.js`: Componente de rodapé com ícones sociais.
-
+```
+calculadoraMobile/
+├── App.js
+├── components/
+│   ├── Calculadora.js
+│   └── Footer.js
+├── assets/
+└── package.json
+```
 <div align="left">
   <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
 </div>
@@ -387,12 +396,20 @@ Na pasta `main`, inicie o projeto com...
 
 #### Estrutura de Arquivos
 
-- `components/FlatListComponent.jsx`: Componente funcional que implementa a exibição da lista de tarefas.
-- `components/ButtonComponent.jsx`: Componente de botão reutilizável.
-- `components/ModalComponent.jsx`: Componente para modal de edição.
-- `components/TextInputComponent.jsx`: Componente de campo de texto.
-- `components/TouchableOpacityComponent.jsx`: Componente para ações de toque.
-- `components/Footer.jsx`: Componente de rodapé com ícones sociais.
+```
+listaTarefas/
+├── App.js
+├── components/
+│   ├── FlatListComponent.jsx
+│   ├── ButtonComponent.jsx
+│   ├── ModalComponent.jsx
+│   ├── TextInputComponent.jsx
+│   ├── TouchableOpacityComponent.jsx
+│   └── Footer.jsx
+├── style/
+├── assets/
+└── package.json
+```
 
 <div align="left">
   <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
