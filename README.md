@@ -398,6 +398,92 @@ Na pasta `main`, inicie o projeto com...
   <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
 </div>
 
+----
+
+### 5. Formulário de Cadastro
+
+> [!NOTE]\
+> *Retirado de "[formularioCadastro](https://github.com/juletopi/Desenvolvimento_Mobile/tree/main/formularioCadastro)"*
+
+> <img align="center" src="https://github.com/user-attachments/assets/bb031379-a47f-458b-8818-8db753bdacee" alt="formularioCadastro-pic" title="Formulário de Cadastro" style="width: 20%;">
+> <img align="center" src="https://github.com/user-attachments/assets/bc51f7fd-2e28-4fcd-8e8c-739b56eda437" alt="formularioCadastro-pic" title="Formulário de Cadastro (Info. Pais)" style="width: 20%;">
+
+Nesta aula foram aprendidos:
+- **Projeto:** Criação de um formulário de cadastro completo utilizando React Native e Expo, com validação em tempo real, máscaras de entrada, campos condicionais e design responsivo.
+- **Componentização:** Separação das funcionalidades em componentes reutilizáveis (`InfoPessoaisComponent`, `InfoEnderecoComponent` e `InfoContaComponent`).
+- **Controle de estado:** Uso do `useState` para gerenciar os valores dos campos, validações, mensagens de erro e campos condicionais baseados na idade.
+- **Validações avançadas:** Implementação de validações complexas incluindo CPF, CEP, telefones, emails, senhas seguras e campos obrigatórios para menores de idade.
+- **Máscaras de entrada:** Aplicação de máscaras automáticas para CPF, telefones, CEP e data de nascimento.
+- **Estilização global:** Uso dum arquivo `globalStyles` para melhor organização da estilização.
+
+Na pasta `main`, inicie o projeto com...
+
+1. Instalar dependências:
+   ```bash
+   npm install
+   npm install @expo/vector-icons
+   ```
+2. Iniciar o projeto com Expo:
+   ```bash
+   npx expo start
+   ```
+3. Visualizar no navegador ou em dispositivo móvel.
+
+<div align="center">
+  <a href="#">
+    <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=151923&height=2&section=header&%20render">
+  </a>
+</div>
+
+#### Funcionalidades
+
+- **Seção de Informações Pessoais**
+  - Campo de **Nome Completo** com validação de nome e sobrenome
+  - **Data de Nascimento** com máscara DD/MM/AAAA e cálculo automático da idade
+  - **CPF** com máscara XXX.XXX.XXX-XX e validação completa do dígito verificador
+  - **Telefone Fixo** (opcional) com máscara (XX) XXXX-XXXX
+  - **Celular** obrigatório com máscara (XX) 9XXXX-XXXX
+  - **Campos condicionais**: Nome dos pais aparece automaticamente para menores de 18 anos
+- **Seção de Endereço**
+  - **CEP** com máscara XXXXX-XXX ou validação de 8 dígitos
+  - **Endereço**, **Número**, **Cidade** e **Estado** obrigatórios
+  - **Complemento** opcional
+- **Seção de Informações da Conta**
+  - **Email** com validação de formato
+  - **Senha** com requisitos de segurança (mínimo 8 caracteres, maiúsculas, minúsculas, números e símbolos)
+  - **Confirmação de senha** com verificação de correspondência
+  - Feedback visual para força da senha
+
+#### Componentes Utilizados
+
+- `useState` (React Hook para controle de estado)
+- `useEffect` (React Hook para efeitos e validações)
+- **Componentes personalizados:**
+  - `InfoPessoaisComponent`: Gerencia informações pessoais e campos condicionais
+  - `InfoEnderecoComponent`: Controla dados de endereço
+  - `InfoContaComponent`: Administra credenciais de acesso
+  - `FooterComponent`: Rodapé com links sociais e ícones do Expo Vector Icons
+
+#### Estrutura de Arquivos
+
+```
+formularioCadastro/
+├── App.js
+├── components/
+│   ├── InfoPessoaisComponent.jsx
+│   ├── InfoEnderecoComponent.jsx
+│   ├── InfoContaComponent.jsx
+│   └── FooterComponent.jsx
+├── style/
+│   └── globalStyles.js
+├── assets/
+└── package.json
+```
+
+<div align="left">
+  <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
+</div>
+
 <br>
 
 <!-- AUTHOR -->
