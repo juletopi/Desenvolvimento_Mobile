@@ -59,6 +59,7 @@
     <a href="#4-lista-de-tarefas">Conceitos Aprendidos 4</a> &#xa0; | &#xa0;
     <a href="#5-formulário-de-cadastro">Conceitos Aprendidos 5</a>
   </p>
+    <a href="#6-consulta-de-endereço-via-api">Conceitos Aprendidos 6</a> &#xa0; | &#xa0;
     <a href="#-autor">Autor</a>
   </p>
 </div>
@@ -481,7 +482,7 @@ Na pasta `main`, inicie o projeto com...
   - `InfoPessoaisComponent`: Gerencia informações pessoais e campos condicionais
   - `InfoEnderecoComponent`: Controla dados de endereço
   - `InfoContaComponent`: Administra credenciais de acesso
-  - `FooterComponent`: Rodapé com links sociais e ícones do Expo Vector Icons
+  - `FooterComponent`: Rodapé com informações do desenvolvedor e links sociais
 
 #### Estrutura de Arquivos
 
@@ -493,6 +494,106 @@ formularioCadastro/
 │   ├── InfoEnderecoComponent.jsx
 │   ├── InfoContaComponent.jsx
 │   └── FooterComponent.jsx
+├── style/
+│   └── globalStyles.js
+├── assets/
+└── package.json
+```
+
+<div align="left">
+  <h6><a href="#desenvolvimento-mobile-"> Voltar para o início ↺</a></h6>
+</div>
+
+----
+
+### 6. Consulta de Endereço via API
+
+> [!NOTE]\
+> *Retirado de "[consultaEndereco](https://github.com/juletopi/Desenvolvimento_Mobile/tree/main/consultaEndereco)"*
+
+> <img align="center" src="https://github.com/user-attachments/assets/e39c75af-f821-4f49-bbe5-268d0a20a0c1" alt="formularioCadastro-pic" title="Consulta de Endereço" style="width: 20%;">
+> <img align="center" src="https://github.com/user-attachments/assets/5e9ec154-215f-4320-a385-7642a2e3b8a2" alt="formularioCadastro-pic" title="Consulta de Endereço (Erro)" style="width: 20%;">
+> <img align="center" src="https://github.com/user-attachments/assets/2a7a955f-51d7-4ac7-acbb-0f03d7b62139" alt="formularioCadastro-pic" title="Consulta de Endereço (Sucesso)" style="width: 20%;">
+
+Nesta aula foram aprendidos:
+- **Projeto:** Criação de um aplicativo de consulta de CEP utilizando React Native, Expo e a API ViaCEP, com tratamento de erros, indicador de carregamento e design elegante inspirado em relatórios profissionais.
+- **Integração com API:** Implementação de consultas HTTP usando fetch para buscar informações de endereço através da API ViaCEP.
+- **Tratamento de estados:** Uso do `useState` para gerenciar estados de carregamento, resultados, erros e validações em tempo real.
+- **Validação de dados:** Implementação de validações de CEP, formatação automática e tratamento de erros de conexão.
+- **Componentização:** Separação das responsabilidades em componentes específicos (`FormConsulta`, `ResultArea`, `CepAPI` e `Footer`).
+
+Na pasta `main`, inicie o projeto com...
+
+1. Instalar dependências:
+   ```bash
+   npm install
+   npm install @expo/vector-icons
+   ```
+2. Iniciar o projeto com Expo:
+   ```bash
+   npx expo start
+   ```
+3. Visualizar no navegador ou em dispositivo móvel.
+
+<div align="center">
+  <a href="#">
+    <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=151923&height=2&section=header&%20render">
+  </a>
+</div>
+
+#### Funcionalidades
+
+- **Formulário de Consulta**
+  - Campo de **CEP** com formatação automática (XXXXX-XXX)
+  - **Validação em tempo real** do formato do CEP (8 dígitos obrigatórios)
+  - **Botão inteligente** que só fica habilitado com CEP válido
+  - **Caixa informativa** com dicas de uso para o usuário
+- **Área de Resultados**
+  - **Indicador de carregamento** com spinner e mensagem durante a consulta
+  - **Exibição organizada** dos dados em formato de fieldset com legenda
+  - **Tratamento condicional** para campos opcionais (complemento, bairro, etc.)
+  - **Mensagens de erro** específicas e informativas
+  - **Disclaimer** com informações sobre a fonte dos dados
+- **Tratamento de Erros**
+  - Validação de CEP inválido ou não encontrado
+  - Mensagens de erro de conexão de rede
+  - Feedback visual diferenciado para erros com bordas vermelhas
+
+#### Componentes Utilizados
+
+- `useState` (React Hook para controle de estado)
+- `fetch` (API nativa para requisições HTTP)
+- **Componentes personalizados:**
+  - `FormConsulta`: Gerencia o formulário de entrada e validações
+  - `ResultArea`: Controla a exibição de resultados, loading e erros
+  - `CepAPI`: Centraliza a lógica de comunicação com a API ViaCEP
+  - `Footer`: Rodapé com informações do desenvolvedor e links sociais
+
+#### API Utilizada
+
+- **ViaCEP**: Serviço gratuito de consulta de CEP brasileiro
+  - Endpoint: `https://viacep.com.br/ws/{cep}/json/`
+  - Retorna: logradouro, bairro, cidade, estado, DDD e código IBGE
+  - Tratamento automático de CEPs não encontrados
+
+#### Estados Gerenciados
+
+- **`resultado`**: Armazena os dados do endereço retornados pela API
+- **`erro`**: Controla mensagens de erro para exibição ao usuário  
+- **`loading`**: Indica se uma consulta está em andamento
+- **`cep`**: Valor atual do campo de entrada com formatação aplicada
+- **`inputFocused`**: Estado de foco do campo para feedback visual
+
+#### Estrutura de Arquivos
+
+```
+consultaEndereco/
+├── App.js
+├── components/
+│   ├── FormConsulta.jsx
+│   ├── ResultArea.jsx
+│   ├── CepAPI.jsx
+│   └── Footer.jsx
 ├── style/
 │   └── globalStyles.js
 ├── assets/
