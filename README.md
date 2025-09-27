@@ -425,8 +425,8 @@ listaTarefas/
 > [!NOTE]\
 > *Retirado de "[formularioCadastro](https://github.com/juletopi/Desenvolvimento_Mobile/tree/main/formularioCadastro)"*
 
-> <img align="center" src="https://github.com/user-attachments/assets/bb031379-a47f-458b-8818-8db753bdacee" alt="formularioCadastro-pic" title="Formulário de Cadastro" style="width: 20%;">
-> <img align="center" src="https://github.com/user-attachments/assets/bc51f7fd-2e28-4fcd-8e8c-739b56eda437" alt="formularioCadastro-pic" title="Formulário de Cadastro (Info. Pais)" style="width: 20%;">
+> <img align="top" src="https://github.com/user-attachments/assets/bb031379-a47f-458b-8818-8db753bdacee" alt="formularioCadastro-pic" title="Formulário de Cadastro" style="width: 20%;">
+> <img align="top" src="https://github.com/user-attachments/assets/bc51f7fd-2e28-4fcd-8e8c-739b56eda437" alt="formularioCadastro-pic" title="Formulário de Cadastro (Info. Pais)" style="width: 20%;">
 
 Conceitos aprendidos:
 - **Projeto:** Criação de um formulário de cadastro completo utilizando React Native e Expo, com validação em tempo real, máscaras de entrada, campos condicionais e design responsivo.
@@ -511,9 +511,9 @@ formularioCadastro/
 > [!NOTE]\
 > *Retirado de "[consultaEndereco](https://github.com/juletopi/Desenvolvimento_Mobile/tree/main/consultaEndereco)"*
 
-> <img align="center" src="https://github.com/user-attachments/assets/e39c75af-f821-4f49-bbe5-268d0a20a0c1" alt="formularioCadastro-pic" title="Consulta de Endereço" style="width: 20%;">
-> <img align="center" src="https://github.com/user-attachments/assets/5e9ec154-215f-4320-a385-7642a2e3b8a2" alt="formularioCadastro-pic" title="Consulta de Endereço (Erro)" style="width: 20%;">
-> <img align="center" src="https://github.com/user-attachments/assets/2a7a955f-51d7-4ac7-acbb-0f03d7b62139" alt="formularioCadastro-pic" title="Consulta de Endereço (Sucesso)" style="width: 20%;">
+> <img align="top" src="https://github.com/user-attachments/assets/e39c75af-f821-4f49-bbe5-268d0a20a0c1" alt="formularioCadastro-pic" title="Consulta de Endereço" style="width: 20%;">
+> <img align="top" src="https://github.com/user-attachments/assets/5e9ec154-215f-4320-a385-7642a2e3b8a2" alt="formularioCadastro-pic" title="Consulta de Endereço (Erro)" style="width: 20%;">
+> <img align="top" src="https://github.com/user-attachments/assets/2a7a955f-51d7-4ac7-acbb-0f03d7b62139" alt="formularioCadastro-pic" title="Consulta de Endereço (Sucesso)" style="width: 20%;">
 
 Conceitos aprendidos:
 - **Projeto:** Criação de um aplicativo de consulta de CEP utilizando React Native, Expo e a API ViaCEP, com tratamento de erros, indicador de carregamento e design elegante inspirado em relatórios profissionais.
