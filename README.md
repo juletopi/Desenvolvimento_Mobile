@@ -225,7 +225,7 @@ E pressione **w** no terminal para abrir no navegador.
 > [!NOTE]\
 > *Retirado de "[espelhoDigitado](https://github.com/juletopi/Desenvolvimento_Mobile/tree/main/espelhoDigitado)"*
 
-Nesta aula foram aprendidos:
+Conceitos aprendidos:
 - **Projeto**: Criação de um componente funcional que espelha em tempo real o que o usuário digita, utilizando apenas elementos básicos do React Native.
 - **Componentização:** Separar funcionalidades em componentes reutilizáveis.
 - **Importação de componentes:** Como importar e utilizar componentes em React Native.
@@ -292,7 +292,7 @@ espelhoDigitado/
 > <img align="center" src="https://github.com/user-attachments/assets/0861953e-d212-4dcd-9410-48e0f5595280" alt="calcMobile-pic" title="Calculadora Mobile (Funcionamento)" style="width: 20%;">
 > <img align="center" src="https://github.com/user-attachments/assets/e9a228fb-ed56-4811-99f0-29c1878a754d" alt="calcMobileError-pic" title="Calculadora Mobile (Exemplo de erro)" style="width: 20%;">
 
-Nesta aula foram aprendidos:
+Conceitos aprendidos:
 - **Projeto:** Criação de uma calculadora de soma simples utilizando React Native e Expo, com dois campos de entrada, botão de soma, exibição do resultado e botão de limpar.
 - **Componentização:** Separação das funcionalidades em componentes reutilizáveis (`Calculadora` e `Footer`).
 - **Controle de estado:** Uso do `useState` para gerenciar os valores dos campos, resultado e mensagens de erro.
@@ -356,7 +356,7 @@ calculadoraMobile/
 > <img align="center" src="https://github.com/user-attachments/assets/ace1e9c7-3b80-47ed-add2-ec8f737446e7" alt="listaTarefas-pic" title="Lista de Tarefas (Editar)" style="width: 20%;">
 > <img align="center" src="https://github.com/user-attachments/assets/8d84d908-73f6-42e9-a5fe-295dfe05060f" alt="listaTarefas-pic" title="Lista de Tarefas (Remover)" style="width: 20%;">
 
-Nesta aula foram aprendidos:
+Conceitos aprendidos:
 - **Projeto:** Criação de uma lista de tarefas utilizando React Native e Expo, com campos de entrada, botões para adicionar, editar e remover tarefas, e exibição das tarefas em uma lista.
 - **Componentização:** Separação das funcionalidades em componentes reutilizáveis (`FlatListComponent`, `ButtonComponent`, `ModalComponent`, `TextInputComponent`, `TouchableOpacityComponent` e `Footer`).
 - **Controle de estado:** Uso do `useState` para gerenciar os valores dos campos, lista de tarefas, edição e mensagens de erro.
@@ -428,7 +428,7 @@ listaTarefas/
 > <img align="center" src="https://github.com/user-attachments/assets/bb031379-a47f-458b-8818-8db753bdacee" alt="formularioCadastro-pic" title="Formulário de Cadastro" style="width: 20%;">
 > <img align="center" src="https://github.com/user-attachments/assets/bc51f7fd-2e28-4fcd-8e8c-739b56eda437" alt="formularioCadastro-pic" title="Formulário de Cadastro (Info. Pais)" style="width: 20%;">
 
-Nesta aula foram aprendidos:
+Conceitos aprendidos:
 - **Projeto:** Criação de um formulário de cadastro completo utilizando React Native e Expo, com validação em tempo real, máscaras de entrada, campos condicionais e design responsivo.
 - **Componentização:** Separação das funcionalidades em componentes reutilizáveis (`InfoPessoaisComponent`, `InfoEnderecoComponent` e `InfoContaComponent`).
 - **Controle de estado:** Uso do `useState` para gerenciar os valores dos campos, validações, mensagens de erro e campos condicionais baseados na idade.
@@ -515,7 +515,7 @@ formularioCadastro/
 > <img align="center" src="https://github.com/user-attachments/assets/5e9ec154-215f-4320-a385-7642a2e3b8a2" alt="formularioCadastro-pic" title="Consulta de Endereço (Erro)" style="width: 20%;">
 > <img align="center" src="https://github.com/user-attachments/assets/2a7a955f-51d7-4ac7-acbb-0f03d7b62139" alt="formularioCadastro-pic" title="Consulta de Endereço (Sucesso)" style="width: 20%;">
 
-Nesta aula foram aprendidos:
+Conceitos aprendidos:
 - **Projeto:** Criação de um aplicativo de consulta de CEP utilizando React Native, Expo e a API ViaCEP, com tratamento de erros, indicador de carregamento e design elegante inspirado em relatórios profissionais.
 - **Integração com API:** Implementação de consultas HTTP usando fetch para buscar informações de endereço através da API ViaCEP.
 - **Tratamento de estados:** Uso do `useState` para gerenciar estados de carregamento, resultados, erros e validações em tempo real.
